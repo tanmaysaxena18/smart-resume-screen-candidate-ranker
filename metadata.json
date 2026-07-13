@@ -1,0 +1,6 @@
+{
+  "name": "Smart Resume Screen & Candidate Ranker",
+  "description": "A professional candidate ranking and resume screening tool. Match candidates against specific job descriptions using Gemini, analyze strengths/weaknesses, and rank them instantly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
