@@ -11,7 +11,7 @@ Here are your live workspace environments for this application. You can use thes
 | Environment | Link | Description |
 | :--- | :--- | :--- |
 | **Development Sandbox (Live)** | [👉 Launch Dev Environment](https://ais-dev-jbyabqnp3db43mu5yh2oam-424098399161.asia-southeast1.run.app) | **Your active playground.** Reflects live changes instantly as we code. This is your primary environment during development. |
-| **Shared / Production App** | [👉 Launch Production App](https://ais-pre-jbyabqnp3db43mu5yh2oam-424098399161.asia-southeast1.run.app) | **The stable public version.** This link becomes active once you publish, share, or deploy your application from the Google AI Studio menu. |
+
 
 > 💡 **Why did the Shared URL show "Page not found"?**  
 > The Shared App URL (`-pre-`) is a production release endpoint. It is deployed only when you share or export the app. Until your first publish/share, it will return a `Page not found` error. Use the **Development Sandbox** (`-dev-`) for live testing!
