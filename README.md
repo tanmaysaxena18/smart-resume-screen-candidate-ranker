@@ -4,17 +4,14 @@ A professional, AI-powered candidate ranking and resume screening application. T
 
 ---
 
-## 🔗 Quick Access & Workspace Links
+## 🔗 Quick Access & Live Links
 
-Here are your live workspace environments for this application. You can use these links to interact with the live app right now:
+Here are the live links for this application. You can use these to interact with the application:
 
 | Environment | Link | Description |
 | :--- | :--- | :--- |
-| **Development Sandbox (Live)** | [👉 Launch Dev Environment](https://ais-dev-jbyabqnp3db43mu5yh2oam-424098399161.asia-southeast1.run.app) | **Your active playground.** Reflects live changes instantly as we code. This is your primary environment during development. |
-
-
-> 💡 **Why did the Shared URL show "Page not found"?**  
-> The Shared App URL (`-pre-`) is a production release endpoint. It is deployed only when you share or export the app. Until your first publish/share, it will return a `Page not found` error. Use the **Development Sandbox** (`-dev-`) for live testing!
+| **🚀 Render Production App** | [👉 Launch Live App on Render](https://smart-resume-screen-candidate-ranker.onrender.com) | **The stable public production build.** Publicly accessible and hosted on Render. |
+| **🛠️ Development Sandbox** | [👉 Launch Sandbox Environment](https://ais-dev-jbyabqnp3db43mu5yh2oam-424098399161.asia-southeast1.run.app) | **Your active playground.** Reflects live changes instantly during ongoing development. |
 
 ---
 
@@ -100,3 +97,26 @@ This produces optimized statics and bundles the backend file inside `dist/server
 ```bash
 npm run start
 ```
+
+---
+
+## 🌐 Deployment on Render
+
+This application runs beautifully on **Render** (using a Web Service instance). Here is the configuration utilized to deploy it:
+
+1. **Service Type:** Web Service
+2. **Environment:** Node
+3. **Build Command:**
+   ```bash
+   npm run build
+   ```
+4. **Start Command:**
+   ```bash
+   npm run start
+   ```
+5. **Environment Variables Configured:**
+   * `PORT`: `10000` (or leave it to Render's default dynamic port selection)
+   * `NODE_ENV`: `production`
+   * `GEMINI_API_KEY`: *(Your Google Gemini API Key)*
+
+With this setup, Render compiles the frontend assets, bundles the Express backend server into the efficient single-file `dist/server.cjs`, and starts serving the unified production build on port `10000`.
